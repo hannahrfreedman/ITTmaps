@@ -17,13 +17,21 @@
       border-radius: 50%;
       cursor: pointer;
     }
+    .mapboxgl-popup {
+      overflow-y: scroll;
+      overflow-x: scroll;
+      max-width: 300px;
+      max-height: 400px;
+      font: 12px/20px 'Open Sans', sans-serif;
+      border-radius: 5px;
+    }
 
   </style>
 </head>
 <body>
 
 <div id='map'></div>
-var geodata = {
+<!-- var geodata = {
    "type": "FeatureCollection",
    "features": [
   {
@@ -180,7 +188,7 @@ var geodata = {
     "Weapon used":"Unclear."
     }
   }
-]
+] -->
 };
 
 <script>
@@ -194,17 +202,39 @@ const map = new mapboxgl.Map({
 });
 
 // add markers to map
-geojson.features.forEach(function(marker) {
+// geojson.features.forEach(function(marker) {
+//
+//   // create a HTML element for each feature
+//   var el = document.createElement('div');
+//   el.className = 'marker';
+//
+//   // make a marker for each feature and add to the map
+//   new mapboxgl.Marker(el)
+//   .setLngLat(marker.geometry.coordinates)
+//   .addTo(map);
+// });
 
-  // create a HTML element for each feature
-  var el = document.createElement('div');
-  el.className = 'marker';
+map.on('click', function(e) {
+  var features = map.queryRenderedFeatures(e.point, {
+    layers: ['ittoct10'] // replace this with the name of the layer
+  });
 
-  // make a marker for each feature and add to the map
-  new mapboxgl.Marker(el)
-  .setLngLat(marker.geometry.coordinates)
-  .addTo(map);
+  if (!features.length) {
+    return;
+  }
+
+  var feature = features[0];
+
+  var popup = new mapboxgl.Popup({ offset: [0, -15] })
+    .setLngLat(feature.geometry.coordinates)
+    .setHTML('<h3>' + feature.properties.Location + '</h3><p><b>Circumstances:</b> ' + feature.properties.Circumstances +
+    '<br><b>Weapon Used:</b> ' + feature.properties.Weaponused +
+    '<br><b>Accountability:</b> ' + feature.properties.Accountability +'</p>')
+    .setLngLat(feature.geometry.coordinates)
+    .addTo(map);
 });
+
+
 
 
 
