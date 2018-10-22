@@ -1,0 +1,159 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.1610582,31.8892984 ]
+    },
+    "properties": {
+    "Location":"Beitunia, West Bank",
+    "Circumstances":"On May 15, 2014, an Israeli border guard used an M16 rifle to fire at Nadeem Nawara, a 17-year-old participating in a protest at a distance of at least 650 feet from Israeli soldiers. The Israeli guard shot Nawara in the chest, killing him. ",
+    "Video link":"https://www.youtube.com/watch?time_continue=74&v=umYw2PuMGgw",
+    "Accountability":"On April 25, 2018, an Israeli court sentenced Ben Deri, the officer who killed Nawara, to a prison sentence of nine months. The Supreme Court sentenced him to an additional nine months, for a total of 18 months",
+    "Weapon used":"M16, made by Colt in the United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.1610582,31.8892984 ]
+    },
+    "properties": {
+    "Location":"Beitunia, West Bank",
+    "Circumstances":"On May 15, 2014, an Israeli border guard fired at 16-year-old Mahmoud Odeh Abu Daher during the same protest that Nadeem Nawara was at. The Israeli guard shot Odeh in the back, as his back was turned to Israeli forces, killing him. Video evidence shows Odeh posed no threat at the time of the killing.",
+    "Video link":"https://www.youtube.com/watch?v=0Unb3TC2xus",
+    "Accountability":"No accountability. The army said it closed its investigation in March 2016 after finding no evidence the person who shot Odeh was a soldier.",
+    "Weapon used":"Unclear what weapon was used."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.1201675,32.0161337 ]
+    },
+    "properties": {
+    "Location":"Nabi Saleh, West Bank",
+    "Circumstances":"On May 12, 2017, an Israeli sniper shot and killed Sabaa Obeid, a 22-year-old who was throwing stones at soldiers. Obeid was shot when his back was turned to soldiers while  hundreds of feet away from them.",
+    "Video link":"https://www.youtube.com/watch?v=yZZ7bO5S5dY",
+    "Accountability":"Israel's military police is currently investigating.",
+    "Weapon used":"US-made Ruger rifle, produced by Sturm, Ruger and Co."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.1201675,32.0161337 ]
+    },
+    "properties": {
+    "Location":"Nabi Saleh, West Bank",
+    "Circumstances":"On December, 9, 2011, an Israeli soldier shot and killed 28-year-old Mustafa Tamimi with a tear gas cannister that hit Tamimi's head. The soldier was in the back of a jeep that was heading towards leaving Nabi Saleh as Tamimi threw stones at the jeep. The soldier opened the back of the truck--it was previously closed--and shot the tear gas cannister at Tamimi.",
+    "Video link":"https://www.youtube.com/watch?v=RrPgBo3paYE",
+    "Accountability":"None. On December 5, 2013, the Israeli Military Advocate General announced in a letter to B'Tselem that no charges would be filed against the soldier who killed Tamimi because there was no offense committed. The military accepted the soldier's claims that he did not see Tamimi when he fired his weapon. ",
+    "Weapon used":"A 40mm-tear gas cannister, made by US company Combined Systems, Inc., fired out of a launcher manufactured by Defense Technology, another US weapons company."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.0910712,31.5325865 ]
+    },
+    "properties": {
+    "Location":"Hebron, West Bank",
+    "Circumstances":"On March 24, 2016, Israeli soldier Elor Azaria shot and killed an injured Palestinian who was laying on the ground after allegedly stabbing another soldier.",
+    "Video link":"https://www.youtube.com/watch?v=P-Bl9zAM5A4",
+    "Accountability":"Convicted of manslaughter, an Israeli judge sentenced Azaria to 18 months in jail. But he was released after serving 9 months.",
+    "Weapon used":"Unclear (ask B'Tselem)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.0621992,31.9285334 ]
+    },
+    "properties": {
+    "Location":"Bil'in, West Bank",
+    "Circumstances":"On April 17, 2009, an Israeli soldier fired a tear gas cannister that struck Bassem Abu Rahmah in the chest, killing him. ",
+    "Video link":"https://www.youtube.com/watch?v=QYyTVJeI3I0",
+    "Accountability":"None. The Military Advocate General decided not to press any charges, saying there was a lack of evidence.",
+    "Weapon used":"Combined Systems-made 40-mm tear gas grenade fired by a launcher manufactured by Defense Technology."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.9761834,31.9676958 ]
+    },
+    "properties": {
+    "Location":"Budrus, West Bank",
+    "Circumstances":"Israeli soldiers shot 16-year-old Samir Awad in the back as he fled after the soldiers ambushed him and his friends who wanted to start a protest.",
+    "Video link":"https://www.youtube.com/watch?v=VEqeHluR-YQ",
+    "Accountability":"None. In 2013, Israel's military prosecutors charged two soldiers with negligence. But in 2018, the prosecution withdrew the case after an army colonel who was a witness said the soldiers did not violate the rules of engagement when they shot Awad. ",
+    "Weapon used":"Unclear."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 31.2968025,34.2579764 ]
+    },
+    "properties": {
+    "Location":"East of Jabalia, Gaza",
+    "Circumstances":"Israeli soldiers shot 19-year-old Abdul Fattah al-Nabi in the back as he was running away from them during a March 30, 2018 \"Great Return March\" protest. ",
+    "Video link":"https://www.youtube.com/watch?v=N3LKLPj0NY8",
+    "Accountability":"Israel's military police is currently investigating.",
+    "Weapon used":"Unclear."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 31.2968025,34.2579764 ]
+    },
+    "properties": {
+    "Location":"East of Gaza City, Gaza",
+    "Circumstances":"Israeli troops shot 14-year-old Othman Hilles as he was climbing the fence separating Gaza from Israel. ",
+    "Video link":"https://twitter.com/dcipalestine/status/1017882226275434497?lang=en",
+    "Accountability":"Israel's military police is currently investigating.",
+    "Weapon used":"Unclear."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.0893692,32.0463914 ]
+    },
+    "properties": {
+    "Location":"Beit Rima, West Bank",
+    "Circumstances":"After Israeli forces raided Beit Rima, 17-year-old Hazem ‘Ata Zidani threw stones at soldiers. At one point, he tried to flee, but Israeli soldiers shot and killed him as he was running away.",
+    "Video link":"https://www.youtube.com/watch?v=Zd3Dgv7xyco",
+    "Accountability":"Israel's military police is currently investigating.",
+    "Weapon used":"Unclear."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 31.2968025,34.2579764 ]
+    },
+    "properties": {
+    "Location":"East of Rafah, Gaza",
+    "Circumstances":"After throwing a stone towards Israeli soldiers, 17-year-old Ahmed Masabah Abu Tuyuru stood in Gaza waving his hands for ten seconds before being shot to death.",
+    "Video link":"https://twitter.com/qudsn/status/1038361348693020672?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1038361348693020672%7Ctwgr%5E363937393b636f6e74726f6c&ref_url=https%3A%2F%2Fwww.haaretz.com%2Fisrael-news%2Fvideo-shows-16-year-old-gazan-shot-by-israeli-soldiers-while-waving-hands-1.6463970",
+    "Accountability":"Israel's military police is currently investigating.",
+    "Weapon used":"Unclear."
+    }
+  }
+]
+}
